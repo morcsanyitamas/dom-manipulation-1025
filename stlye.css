@@ -49,11 +49,10 @@ body {
   transform: translateY(2px);
 }
 
-.key__button:active {
+.key__button:active, .pressed {
   box-shadow: 0 0 1px #888, 0 1px 0 #fff, 0 0 0 #c0c0c0,
   0 0px 30px rgba(68, 68, 68, 0.15), 2px 2px 4px rgba(68, 68, 68, 0.25),
   -2px 2px 4px rgba(68, 68, 68, 0.25), 0 0px 4px rgba(68, 68, 68, 0.25);
   transform: translateY(4px);
   background: -webkit-linear-gradient(top, #ff7979 0%, #ffd2d2 80%, #ffc0c0 100%);
 }
-
